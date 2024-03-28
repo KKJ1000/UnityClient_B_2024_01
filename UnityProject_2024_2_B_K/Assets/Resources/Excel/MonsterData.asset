@@ -12,4 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3786ddc12c13704283d59ec019ea62d, type: 3}
   m_Name: MonsterData
   m_EditorClassIdentifier: 
-  sheets: []
+  sheets:
+  - name: monster
+    list:
+    - index: 1
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 1"
+    - index: 2
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 2"
+    - index: 3
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 3"
+    - index: 4
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 4"
+    - index: 5
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 5"
+    - index: 6
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 6"
+    - index: 7
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 7"
+    - index: 8
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 8"
+    - index: 9
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 9"
+    - index: 10
+      hp: 10
+      mp: 5
+      name: "\uBAAC\uC2A4\uD130 10"
