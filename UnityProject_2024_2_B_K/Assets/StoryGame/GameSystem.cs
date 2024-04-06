@@ -49,7 +49,7 @@ namespace STORYGAME
 
         public float delay = 0.1f; //각 글자가 나타나는 시간
         private string currentText = ""; //표시된 텍스트
-        public Text textComponent;   // TextMeshPro 컴포넌트
+        public Text textComponent;   // Text 컴포넌트
 
         private void Awake()
         {

@@ -15,7 +15,7 @@ namespace STORYGAME
         public string storyText;
         public List<Option> options = new List<Option>();
 
-
+        
         [System.Serializable]
         public class Option
         {
@@ -24,6 +24,7 @@ namespace STORYGAME
             public EventCheck eventCheck;
         }
 
+        [System.Serializable]
         public class EventCheck
         {
             public int checkValue;

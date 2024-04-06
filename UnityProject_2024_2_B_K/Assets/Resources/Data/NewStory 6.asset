@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0366ef665f9fa6f47a442a8793a1af76, type: 3}
-  m_Name: NewStory 1
+  m_Name: NewStory 6
   m_EditorClassIdentifier: 
-  storyNumber: 1
+  storyNumber: 0
   storyType: 0
   storyDone: 1
-  storyText: "\uD55C\uAE00 \uD14D\uC2A4\uD2B8 \uD55C\uAE00 \uD14D\uC2A4\uD2B8 \uD55C\uAE00
-    \uD14D\uC2A4\n"
+  storyText: 
   options: []
