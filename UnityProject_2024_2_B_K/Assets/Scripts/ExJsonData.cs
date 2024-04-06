@@ -7,7 +7,7 @@ using System.IO;
 public class ExJsonData : MonoBehaviour
 {
     string filePath;
-    // Start is called before the first frame update
+    
     void Start()
     {
         filePath = Application.persistentDataPath + "/PlayerData.json";

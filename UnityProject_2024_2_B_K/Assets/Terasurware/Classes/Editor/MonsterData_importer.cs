@@ -52,7 +52,7 @@ public class MonsterData_importer : AssetPostprocessor {
 						
 					cell = row.GetCell(0); p.index = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(1); p.hp = (int)(cell == null ? 0 : cell.NumericCellValue);
-					cell = row.GetCell(2); p.mp = (int)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(2); p.kwangjoon = (cell == null ? 0.0 : cell.NumericCellValue);
 					cell = row.GetCell(3); p.name = (cell == null ? "" : cell.StringCellValue);
 						s.list.Add (p);
 					}

@@ -11,7 +11,7 @@ public class ExGetData : MonoBehaviour
     {
         foreach(Entity_monster.Param param in monster.sheets[0].list)
         {
-            Debug.Log(param.index + " - " + param.name + " - " + param.hp + " - " + param.mp);
+            Debug.Log(param.index + " - " + param.name + " - " + param.hp + " - " + param.kwangjoon);
         }
     }
 
