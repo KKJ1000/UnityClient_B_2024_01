@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0366ef665f9fa6f47a442a8793a1af76, type: 3}
   m_Name: NewStory 4
   m_EditorClassIdentifier: 
-  storyNumber: 1
+  storyNumber: 0
   storyType: 0
   storyDone: 1
   storyText: 
