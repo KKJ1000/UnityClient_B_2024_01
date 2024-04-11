@@ -13,7 +13,7 @@ public class ExEmeny : MonoBehaviour
     // ExPlayer 클래스 안에 함수에 ExPlayer(); 함수를 선언하고 그 안에 ExPlayer(int first, int second);로
     //해서 초기화 할떄 Explayer player = ExPlayer(1,2); 이런식으로 가능하다.
     
-    private int damage = 20; //적 공격력;
+    public int damage = 20; //적 공격력;
 
     public void AttackPlayer(ExPlayer player) //플레이어 공격 함수.
     {
