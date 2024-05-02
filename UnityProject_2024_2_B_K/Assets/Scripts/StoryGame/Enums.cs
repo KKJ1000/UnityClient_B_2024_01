@@ -46,7 +46,7 @@ namespace STORYGAME
 
         public int currentHpPoint;
         public int currentSpPoint;
-        public int currentMpPoint;
+        public int currentXpPoint;
 
         public int strength; //STR Èû
         public int dexterity; //DEX ¹ÎÃ¸
