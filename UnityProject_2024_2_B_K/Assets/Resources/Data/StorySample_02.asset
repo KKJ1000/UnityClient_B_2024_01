@@ -16,32 +16,19 @@ MonoBehaviour:
   MainImage: {fileID: 2800000, guid: 298b1f2dba0a8a0419dd67aeb265258d, type: 3}
   storyDone: 0
   storyType: 0
-  storyText: "\uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8 \n\uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
-    \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8\n\uD14D\uC2A4\uD2B8
-    \uD14C\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8\n\uD14D\uC2A4\uD2B8
-    \uD14C\uC2A4\uD2B8\uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8"
+  storyText: Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story
+    Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story
+    Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story
+    Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story
+    Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story Sample_02Story
+    Sample_02Story Sample_02Story Sample_02
   options:
   - optionText: 
     buttonText: "\uC120\uD0DD\uC9C01"
     eventCheck:
       checkValue: 0
       type: 0
-      successResult:
-      - resultType: 5
-        value: 2
-        stats:
-          hpPoint: 0
-          spPoint: 0
-          currentHpPoint: 0
-          currentSpPoint: 0
-          currentXpPoint: 0
-          strength: 0
-          dexterity: 0
-          consitiution: 0
-          Intelligence: 0
-          wisdom: 0
-          charisma: 0
+      successResult: []
       failedResult: []
   - optionText: 
     buttonText: "\uC120\uD0DD\uC9C0 2"

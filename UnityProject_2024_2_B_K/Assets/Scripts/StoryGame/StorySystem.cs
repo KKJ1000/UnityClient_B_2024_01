@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;    //UI 사용
-using System;            //문자열 관리 하기 위해 사용
+using System;
+using STORYGAME;            //문자열 관리 하기 위해 사용
+
 public class StorySystem : MonoBehaviour
 {
     public static StorySystem instance; //싱글톤
@@ -11,6 +13,7 @@ public class StorySystem : MonoBehaviour
 
     public enum TEXTSYSTEM
     {
+        NONE,
         DOING,
         SELECT,
         DONE
@@ -25,6 +28,8 @@ public class StorySystem : MonoBehaviour
 
     public Button[] buttonWay = new Button[3];  //선택지 버튼
     public Text[] buttonWayText = new Text[3];  //버튼 텍스트
+
+    TEXTSYSTEM textSystem = TEXTSYSTEM.NONE;
 
     public void Awake()
     {
@@ -104,19 +109,20 @@ public class StorySystem : MonoBehaviour
             yield return new WaitForSeconds(delay);
         }
     }
-    public void OnWayClick(int index)      //버튼 누를시 호출 되는 함수
+    
+    public void OnWayClick(int index) //버튼을 누를 시 호출 되는 함수
     {
-        Debug.Log("OnWayClick: " + index);
+        Debug.Log("OnWayClick : " + index);
 
-        bool CheckEventTypeNone = false;  //기본적으로 NONE일 때는 성공 판단 실패시 다시 함수 호출되는 것을 막기
-        StoryModel playStoryModel = currentStoryModel;
+        bool CheckEventTypeNone = false; //기본적으로 NONE 일때는 성공 판단 실패시 다시 함수 호출 되는 것을 막기
+        StoryModel playStoryMode = currentStoryModel;
 
-        if(playStoryModel.options[index].eventCheck.type == StoryModel.EventCheck.EventType.NONE)
+        if(playStoryMode.options[index].eventCheck.type == StoryModel.EventCheck.EventType.NONE)
         {
-            for(int i = 0;i < playStoryModel.options[index].eventCheck.successResult.Length; i++)
+            for(int i = 0; i < playStoryMode.options[index].eventCheck.successResult.Length; i++)
             {
-                //추가 할 것
-                 
+                GameSystem.Instance.ApplyChoice(currentStoryModel.options[index].eventCheck.successResult[i]);
+                CheckEventTypeNone = true;
             }
         }
     }

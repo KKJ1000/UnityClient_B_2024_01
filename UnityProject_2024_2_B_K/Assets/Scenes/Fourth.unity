@@ -656,11 +656,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d96b80766e2a2b4480200a6ae370850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.1
-  textComponent: {fileID: 1714071135}
-  state: 0
-  storyModels: []
-  currentModels: {fileID: 0}
+  currentState: 0
+  stats:
+    hpPoint: 0
+    spPoint: 0
+    currentHpPoint: 0
+    currentSpPoint: 0
+    currentXpPoint: 0
+    strength: 0
+    dexterity: 0
+    consitiution: 0
+    Intelligence: 0
+    wisdom: 0
+    charisma: 0
+  storyModels:
+  - {fileID: 11400000, guid: 59e16fcadf6412f4a87d2140d9cfe4cc, type: 2}
+  - {fileID: 11400000, guid: e56a8da30645fdf4bb1759f5f6460938, type: 2}
+  currentStoryIndex: 0
 --- !u!4 &2034864896
 Transform:
   m_ObjectHideFlags: 0
